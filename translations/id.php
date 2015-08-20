@@ -35,8 +35,8 @@ $_MODULE['<{bankbii}prestashop>payment_execution_47e3256efc0e242d4b8e282da97b0d5
 $_MODULE['<{bankbii}prestashop>payment_execution_edd87c9059d88fea45c0bd6384ce92b9'] = 'Konfirmasi pembelian Anda dengan klik pada tombol \"Konfirmasi pembelian\".';
 $_MODULE['<{bankbii}prestashop>payment_execution_46b9e3665f187c739c55983f757ccda0'] = 'Konfirmasi pembelian';
 $_MODULE['<{bankbii}prestashop>payment_execution_569fd05bdafa1712c4f6be5b153b8418'] = 'Cara pembayaran lainnya';
-$_MODULE['<{bankbii}prestashop>infos_1f3c3b53405df812b0ee28f493af73c1'] = 'Modul untuk menerima penbayaran melalui Bank BII.';
-$_MODULE['<{bankbii}prestashop>infos_c203911facf25322da72722a7fb55235'] = 'Jika pelanggan memilih membayar menggunakan Bank Muamalat, status pembelian akan berubah menjadi \'Menunggu pembayaran via Bank BII\'';
+$_MODULE['<{bankbii}prestashop>infos_1f3c3b53405df812b0ee28f493af73c1'] = 'Modul untuk menerima pembayaranran melalui Bank BII.';
+$_MODULE['<{bankbii}prestashop>infos_c203911facf25322da72722a7fb55235'] = 'Jika pelanggan memilih membayar menggunakan Bank BII, status pembelian akan berubah menjadi \'Menunggu pembayaran via Bank BII\'';
 $_MODULE['<{bankbii}prestashop>infos_cd94b3bd53c8fab8e53aeb14c1e724c8'] = 'Dan jika pembayaran telah diterima, konfirmasi pembayaran harus dilakukan secara manual.';
 $_MODULE['<{bankbii}prestashop>payment_7cba81fa596d9807e89582f2f6f68194'] = 'Bayar melalui Bank BII';
 $_MODULE['<{bankbii}prestashop>payment_return_88526efe38fd18179a127024aba8c1d7'] = 'Pembelian Anda %s berhasil.';
