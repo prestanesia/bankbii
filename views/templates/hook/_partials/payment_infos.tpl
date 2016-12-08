@@ -23,9 +23,14 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 
-<p class="payment_module">
-	<a href="{$link->getModuleLink('bankbii', 'payment')|escape:'html'}" title="{l s='Pay by Bank BII' d='Modules.BankBII.Shop'}">
-		<img src="{$this_path_bw}logo.png" alt="{l s='Pay by Bank BII' d='Modules.BankBII.Shop'}"/>
-		{l s='Pay by Bank BII' d='Modules.BankBII.Shop'}&nbsp;<span>{l s='(order processing will be longer)' d='Modules.BankBII.Shop'}</span>
-	</a>
-</p>
+
+<dl>
+    <dt>{l s='Amount' mod='bankbii'}</dt>
+    <dd>{$total}</dd>
+    <dt>{l s='Name of account owner' mod='bankbii'}</dt>
+    <dd>{$bankbiiOwner}</dd>
+    <dt>{l s='Please include these details' mod='bankbii'}</dt>
+    <dd>{$bankbiiDetails}</dd>
+    <dt>{l s='Bank name' mod='bankbii'}</dt>
+    <dd>{$bankbiiAddress nofilter}</dd>
+</dl>
