@@ -1,6 +1,6 @@
-Bank BII
+Bank Maybank
 --------
-Modul pembayaran Bank BII untuk PrestaShop 1.6.x (branch: 1.6) dan PrestaShop 1.7.x (branch: master)
+Modul pembayaran Bank Maybank untuk PrestaShop 1.6.x (branch: 1.6) dan PrestaShop 1.7.x (branch: master)
 
 Modul ini dibuat berdasarkan modul BankWire/ps_wirepayment. Versi/perubahan akan selalu mengikuti modul tersebut.
 
@@ -10,7 +10,7 @@ Instalasi dan Konfigurasi
 * Rename bankbii-master.zip menjadi bankbii.zip
 * Upload dari halaman Modules di BackOffice.
 * Di halaman konfigurasi modul, masukan nama bank, no rekening, nama pemilik rekening dan lokasi/cabang bank.
-* Modul akan membuat status order baru yaitu "Awaiting Bank BII Payment"/"Menunggu pembayaran via Bank BII".
+* Modul akan membuat status order baru yaitu "Awaiting Bank Maybank Payment"/"Menunggu pembayaran via Bank Maybank".
 * Untuk pengiriman email, modul menggunakan format email sendiri yang dapat Anda temukan di folder mails/bahasa-yang-digunakan/bankbii.html dan mails/bahasa-yang-digunakan/bankbii.txt.
 
 Kustomisasi

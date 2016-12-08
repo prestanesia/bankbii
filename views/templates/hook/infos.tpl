@@ -25,7 +25,7 @@
 
 <div class="alert alert-info">
 <img src="../modules/bankbii/logo.png" style="float:left; margin-right:15px;" height="60">
-<p><strong>{l s="This module allows you to accept secure payments by Bank BII." d='Modules.BankBII.Admin'}</strong></p>
-<p>{l s="If the client chooses to pay by Bank BII, the order's status will change to 'Awaiting Bank BII Payment.'" d='Modules.BankBII.Admin'}</p>
-<p>{l s="That said, you must manually confirm the order upon receiving the Bank BII." d='Modules.BankBII.Admin'}</p>
+<p><strong>{l s="This module allows you to accept secure payments by Bank Maybank." d='Modules.BankBII.Admin'}</strong></p>
+<p>{l s="If the client chooses to pay by Bank Maybank, the order's status will change to 'Awaiting Bank Maybank Payment.'" d='Modules.BankBII.Admin'}</p>
+<p>{l s="That said, you must manually confirm the order upon receiving the Bank Maybank." d='Modules.BankBII.Admin'}</p>
 </div>

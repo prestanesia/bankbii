@@ -26,7 +26,7 @@
 {if $status == 'ok'}
     <p>
       {l s='Your order on %s is complete.' sprintf=[$shop_name] mod='bankbii'}<br/>
-      {l s='Please send us payment via Bank BII with:' mod='bankbii'}
+      {l s='Please send us payment via Bank Maybank with:' mod='bankbii'}
     </p>
     {include file='module:bankbii/views/templates/hook/_partials/payment_infos.tpl'}
 

@@ -8,7 +8,7 @@ Terima kasih telah berbelanja di {shop_name}!
 Pembelian dengan no referensi {order_name} berhasil diproses
 dan AKAN DIKIRIMKAN SETELAH PE,BAYARAN KAMI TERIMA. 
 
-Anda memilih untuk membayar menggunakan Bank BII. 
+Anda memilih untuk membayar menggunakan Bank Maybank. 
 
 Berikut adalah informasi rekening dan jumlah pembayaran:
 

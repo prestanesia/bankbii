@@ -70,8 +70,8 @@ class BankBII extends PaymentModule
         $this->bootstrap = true;
         parent::__construct();
 
-        $this->displayName = $this->trans('Bank BII', array(), 'Modules.BankBII.Admin');
-        $this->description = $this->trans('Accept payments for your products via Bank BII transfer.', array(), 'Modules.BankBII.Admin');
+        $this->displayName = $this->trans('Bank Maybank', array(), 'Modules.BankBII.Admin');
+        $this->description = $this->trans('Accept payments for your products via Bank Maybank transfer.', array(), 'Modules.BankBII.Admin');
         $this->confirmUninstall = $this->trans('Are you sure about removing these details?', array(), 'Modules.BankBII.Admin');
 
         if (!isset($this->owner) || !isset($this->details) || !isset($this->address)) {
@@ -112,9 +112,9 @@ class BankBII extends PaymentModule
         $languages = Language::getLanguages(true);
         foreach ($languages as $lang) {
             if ($lang['iso_code'] == 'id') {
-                $newState->name[(int)$lang['id_lang']] = 'Menunggu pembayaran via Bank BII';
+                $newState->name[(int)$lang['id_lang']] = 'Menunggu pembayaran via Bank Maybank';
             } else {
-                $newState->name[(int)$lang['id_lang']] = 'Awaiting Bank BII Payment';
+                $newState->name[(int)$lang['id_lang']] = 'Awaiting Bank Maybank Payment';
             }
             $newState->template = "bankbii";
         }
@@ -229,7 +229,7 @@ class BankBII extends PaymentModule
         );
 
         $newOption = new PaymentOption();
-        $newOption->setCallToActionText($this->trans('Pay by Bank BII', array(), 'Modules.BankBII.Shop'))
+        $newOption->setCallToActionText($this->trans('Pay by Bank Maybank', array(), 'Modules.BankBII.Shop'))
                       ->setAction($this->context->link->getModuleLink($this->name, 'validation', array(), true))
                       ->setAdditionalInformation($this->context->smarty->fetch('module:bankbii/views/templates/hook/intro.tpl'));
         $payment_options = [
@@ -361,7 +361,7 @@ class BankBII extends PaymentModule
                         'type' => 'textarea',
                         'label' => $this->trans('Information to the customer', array(), 'Modules.WirePayment.Admin'),
                         'name' => 'BANK_BII_CUSTOM_TEXT',
-                        'desc' => $this->trans('Information about Bank BII (processing time, starting of the shipping...)', array(), 'Modules.WirePayment.Admin'),
+                        'desc' => $this->trans('Information about Bank Maybank (processing time, starting of the shipping...)', array(), 'Modules.WirePayment.Admin'),
                         'lang' => true
                     ),
                 ),

@@ -24,8 +24,8 @@
 *}
 
 <p class="payment_module">
-	<a href="{$link->getModuleLink('bankbii', 'payment')|escape:'html'}" title="{l s='Pay by Bank BII' d='Modules.BankBII.Shop'}">
-		<img src="{$this_path_bw}logo.png" alt="{l s='Pay by Bank BII' d='Modules.BankBII.Shop'}"/>
-		{l s='Pay by Bank BII' d='Modules.BankBII.Shop'}&nbsp;<span>{l s='(order processing will be longer)' d='Modules.BankBII.Shop'}</span>
+	<a href="{$link->getModuleLink('bankbii', 'payment')|escape:'html'}" title="{l s='Pay by Bank Maybank' d='Modules.BankBII.Shop'}">
+		<img src="{$this_path_bw}logo.png" alt="{l s='Pay by Bank Maybank' d='Modules.BankBII.Shop'}"/>
+		{l s='Pay by Bank Maybank' d='Modules.BankBII.Shop'}&nbsp;<span>{l s='(order processing will be longer)' d='Modules.BankBII.Shop'}</span>
 	</a>
 </p>
